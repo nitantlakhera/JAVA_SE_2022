@@ -42,10 +42,13 @@ public class ArmstrongNumber {
 	}
 	
 	public static void checkArmstrong(double A, double B) {
-		if (A == B) {
-			System.out.println("YES");
-		} else {
+		if (A != B) 
+		{
 			System.out.println("NO");
+		} 
+		else 
+		{
+			System.out.println("YES");
 		}
 	}
 }
